@@ -14,7 +14,7 @@ This script provides several functions to apply various types of point cloud aug
 
  
 
-## Input folder structure:
+## Input folder structure
 * pcd_data
   * class-a
     * class-a_#.txt
@@ -23,9 +23,11 @@ This script provides several functions to apply various types of point cloud aug
   * class-c
     * class-c_#.txt
     
-txt data: XYZRGB (single space delimiter)
+* __txt data:__ XYZRGB (single space delimiter)
 
-## Sample usage:
+## Sample usage
 
 ```python pcd_aug.py --input_folder ./input --output_folder ./output --rotating 0.5 --shifting 0.1 --aug_num 25```
 
+## References
+[charlesq34/PointNet](https://github.com/charlesq34/pointnet) <br>
